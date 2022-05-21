@@ -1,0 +1,121 @@
+.button-decoration{
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  display: block;
+  justify-content: center;
+ margin: 25px;
+}
+.button-decoration:hover{
+  color: gray;
+  background-size: auto;
+}
+#lead:hover{
+  background-color: gray;
+
+}
+.centre{
+  text-align: center;
+}
+.shift_left{
+  margin-left: 25px;
+}
+.shift_right{
+  margin-left: 25px;
+}
+.shift_top{
+  margin-left: 25px;
+}
+.shift_bottom{
+  margin-left: 25px;
+}
+.shift_left:hover{
+  animation-name: slidein;
+  animation-direction: normal;
+  animation-play-state: running;
+  background-color: coral;
+  animation-duration:5s;
+  animation-iteration-count: 2;
+  
+}
+@keyframes slidein {
+  0%{
+    transform: translateX(25px);
+  }
+  50%{
+    
+    transform: translateX(-25px);
+  }
+  75%{
+    
+    transform: translateX(25px);
+    
+  }
+}
+@media screen and(max-width: 576px){
+.block{
+  display:block;
+}
+}
+.division{
+  display: flexbox;
+  color: gray;
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: auto;
+  width: 100vh;
+  padding-top: 40px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+footer{
+  margin-top: 10px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
